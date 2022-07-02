@@ -4,11 +4,13 @@ const { Tag, Product, ProductTag } = require('../../models');
 // The `/api/tags` endpoint
 
 router.get('/', async (req, res) => {
+  console.log()
   // find all tags
   // be sure to include its associated Product data
   try {
     const TagData = await Tag.findAll(req.params.id, {
-      include: [{ model: Product }], 
+      include: [{ model: Product, 
+       through: ProductTag}], 
     });
 
     if (!TagData) {
@@ -43,19 +45,11 @@ router.get('/:id', async (req, res) => {
 router.post('/', (req, res) => {
   // create a new tag
   Tag.create(req.body)
-    .then((product) => {
-      if (req.body.tagIds.length) {
-        const productTagIdArr = req.body.tagIds.map((tag_id) => {
-          return {
-            product_id: product.id,
-            tag_id,
-          };
-        });
-        return ProductTag.bulkCreate(productTagIdArr);
-      }
-      res.status(200).json(product);
+    .then((Tag) => {
+     
+      res.status(200).json(Tag);
     })
-    .then((productTagIds) => res.status(200).json(productTagIds))
+    
     .catch((err) => {
       console.log(err);
       res.status(400).json(err);
