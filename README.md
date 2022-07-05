@@ -1,7 +1,8 @@
 # E-Commerce---App
 
 ## Description
-    - Our challenge was to build the back end for an e-commerce site. Where were taking a working Express.js API and configuring
+    - Our challenge was to build the back end for an e-commerce site.
+    Where were taking a working Express.js API and configuring
      it to use Sequelize to interact with a MySQL database.
 
 ## Installation
