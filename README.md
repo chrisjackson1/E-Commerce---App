@@ -25,11 +25,9 @@
     - To finish setting up the application, complete the following steps:
 
     - To Start the Application
-    https://drive.google.com/file/d/1tWqxTXPWleSbV-tpSUpPNszcpJW6BALs/view
 
     - Create a MySQL database on your local machine using the schema.sql file located in the /db/ directory(From the MySQL CLI, source db/schema.sql)
     - Seed the database with sample data to be used for testing purposes(Run npm run seed from inside the root directory of the project)
-    https://drive.google.com/file/d/1ByVn-nVznZmIohcNfKAdYOc6RhrDVxlP/view
 
 ## Author
 
@@ -41,5 +39,11 @@
 
 ## Link To Walk Through Video
 
+Insomnia Database Link:
+
 https://drive.google.com/file/d/1zteV28fY0wwpxmDE46gPh0tLgAEDAOAP/view
+
+Seeding Database & Starting Application Link: 
+
+https://drive.google.com/file/d/1bUFl_xID55I-Sx_QGcdN_WeRgapkDCOp/view
 
