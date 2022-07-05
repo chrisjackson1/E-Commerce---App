@@ -10,10 +10,6 @@
 
     - $ git clone git@github.com:chrisjackson1/E-Commerce---App.git
     - $ cd e-commerce-backend 
-    
-    To install and set up the application, run:
-
-    - npm install employee-tracker
 
     You will also need to have a .env file in your root directory, in order to connect to your MySQL database.
 
