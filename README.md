@@ -1,8 +1,7 @@
 # E-Commerce---App
 
 ## Description
-    - Our challenge was to build the back end for an e-commerce site.
-    Where were taking a working Express.js API and configuring
+    - Our challenge was to build the back end for an e-commerce site. Where were taking a working Express.js API and configuring
      it to use Sequelize to interact with a MySQL database.
 
 ## Installation
@@ -17,6 +16,18 @@
     - DB_NAME='ecommerce_db'
     - DB_USER='root'
     - DB_PASSWORD=''  
+
+    Create Your Database
+    - Drop the schema in your database once logging in.
+    - type 'SHOW DATABASE' in the command line to check for your ecommerce_db is there!
+
+    Seeding
+    - Once your database is in the system then begin seeding information in.
+    - type "node seeds/index" into the command line
+
+    Starting Application
+    - Once the seeds are finally in then type, "node server", into the command line to start your Application!
+
 ## Usage
 
     - To finish setting up the application, complete the following steps:
