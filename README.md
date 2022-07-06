@@ -49,9 +49,21 @@
 
 Insomnia Database Link:
 
-https://drive.google.com/file/d/1zteV28fY0wwpxmDE46gPh0tLgAEDAOAP/view
+Categories:
+
+https://drive.google.com/file/d/1yu7t_JYHqN7C-tsRCrN__Q-EbPUx530I/view
+
+
+Products: 
+
+https://drive.google.com/file/d/1-noTqdg9Azhonp0uVGLZ5_fwaGexejg8/view
+
+Tags: 
+https://drive.google.com/file/d/1-noTqdg9Azhonp0uVGLZ5_fwaGexejg8/view
+
 
 Seeding Database & Starting Application Link: 
 
-https://drive.google.com/file/d/1bUFl_xID55I-Sx_QGcdN_WeRgapkDCOp/view
+https://drive.google.com/file/d/1QcO3YVhQLf9n8XhJiLvqLChZQxc3tmat/view
+
 
